@@ -1,3 +1,11 @@
+This is a fork of the excellent app from https://github.com/gelin/weather-notification, which unfortunately no longer appears to be maintained and has stopped functioning due to the recent OpenWeatherMap API update.
+
+The sole purpose of this fork is to update the app to call OpenWeatherMap’s new OneCall API.
+Extract form https://openweathermap.org/api/one-call-3: "Please note, that One Call API 3.0 is included in the "One Call by Call" subscription only. This separate subscription includes 1,000 calls/day for free and allows you to pay only for the number of API calls made to this product. Please note, that you do not need to subscribe to any other OpenWeather subscription plans to get access to the One Call API 3.0"
+
+---------
+Original author’s description:
+
 Simple application which displays the air temperature and other weather conditions in the Android notification bar.
 The air temperature is always visible like a system clock.
 

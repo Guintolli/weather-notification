@@ -19,5 +19,5 @@
   -->
 
 <resources>
-    <string name="openweathermap_api_base_url">http://api.openweathermap.org/data/2.5</string>
+    <string name="openweathermap_api_base_url">https://api.openweathermap.org/data/2.5</string>
 </resources>

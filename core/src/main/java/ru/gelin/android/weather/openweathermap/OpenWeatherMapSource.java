@@ -99,7 +99,7 @@ public class OpenWeatherMapSource extends HttpWeatherSource implements WeatherSo
 
     String getOneCallUrl(Location location, String exclude) {
         try {
-            return apiBaseUrl + "/onecall?exclude=" + exclude +
+            return "https://api.openweathermap.org/data/3.0" + "/onecall?exclude=" + exclude +
                 "&appid=" + URLEncoder.encode(key.getKey(), "UTF-8") +
                 "&" + location.getQuery();
         } catch (UnsupportedEncodingException e) {
